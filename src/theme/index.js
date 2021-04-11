@@ -28,6 +28,9 @@ const theme = createMuiTheme({
       fontFamily: "Poppins",
     }
   },
+  dimensions: {
+    headerHeight: "65px",
+  }
 });
 
 export default theme;

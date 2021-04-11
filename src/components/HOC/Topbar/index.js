@@ -11,13 +11,19 @@ const useStyles = makeStyles((theme) => ({
     backgroundPosition: "center",
     ovjectFit: "contain",
   },
-  topBarContents: {},
+  topBarContents: {
+    display: "flex", 
+    justifyContent: "center",
+    alignItems: "center",
+    width: "100%",
+    fontSize: "25px",
+  },
 }));
 const Topbar = () => {
   const classes = useStyles();
   return (
     <Container fluid="true" className={classes.topBarContainer}>
-      <Container classes={classes.topBarContents}>I am topbar...</Container>
+      <Container className={classes.topBarContents}>Prince ❤ Afreen</Container>
     </Container>
   );
 };
