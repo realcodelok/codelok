@@ -3,7 +3,6 @@ import clsx from "clsx";
 import React from "react";
 const useStyles = makeStyles((theme) => ({
   loginDiv: {
-    zIndex: "1600",
     width: "60%",
     height: "auto",
     margin: "0 auto",
